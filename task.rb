@@ -33,6 +33,3 @@ obj.abc
 obj.disp
 obj.show()
  	
-a = Mobile.new
-a.features("Samsung", "Exynos", "OLED")
-a.abc
