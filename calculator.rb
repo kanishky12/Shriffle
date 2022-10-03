@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-
-require 'rubocop'
 require './calculate'
 
 # Code Starts here
