@@ -9,18 +9,15 @@ class Calculator
   a = 1
   while a
     Calculator.choose_an_option
+    Calculator.user_input
     case @num
     when 1
-      Calculator.user_input
       Calculator.addition
     when 2
-      Calculator.user_input
       Calculator.subtraction
     when 3
-      Calculator.user_input
       Calculator.multiplication
     when 4
-      Calculator.user_input
       Calculator.division
     else
       puts 'Enter correct number'
