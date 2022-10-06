@@ -6,9 +6,9 @@ require './calculate'
 # Code Starts here
 class Calculator
   extend Calculate
-  a = 1
-  while a
-    Calculator.choose_an_option
+  option = 1
+  while option
+    Calculator.menu
     Calculator.user_input
     case @num
     when 1
@@ -22,7 +22,7 @@ class Calculator
     else
       puts 'Enter correct number'
     end
-    print 'Do you want to continue Y/N : '
+    print 'Do you want to continue Yes/No : '
     check = gets.chomp
     check == 'Y' ? next : break
   end
