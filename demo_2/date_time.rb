@@ -44,3 +44,9 @@
 
 # puts(DateTime.now)
 # # DateTime: 2018-10-15T16:06:39+02:00
+puts Time.now
+puts Time.new("2022/12/12")
+puts Time.new(2011,11,12)
+gmt = Time.now.utc
+puts gmt
+puts Time.now.utc_offset
